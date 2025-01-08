@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
+        <link rel="stylesheet" href="wordle.css" />
+
+        <title>WORDLE</title>
+    </head>
+    <body>
+
+        <h1>WORDLE</h1>
+
+        <!-- user didn't enter a 5 letter word -->
+        <div id="popup" class="hidden">
+            <div id="letter_error">
+                PLEASE ENTER A <br> 5-LETTER WORD
+            </div>
+        </div>
+        
+        <!-- the gameboard -->
+        <div id="gameboard">
+            <div id="board"></div>
+        </div>
+
+        <!-- the input text field and guess button -->
+        <div class="textfield">
+            <input type="text" id="wguess" name="wguess" placeholder="Word Guess"> <br>
+            <input type="submit" id="submitbutton" value="CHECK">
+        </div>
+        
+        <!-- the game over screen -->
+        <div id="GO_screen" class="hide_go">
+            <div class="GO_content">
+                <h1 class="game_over">Game Over!</h1>
+                <input type="submit" id="retrybutton" value="RETRY">
+            </div>
+        </div>
+
+        <!-- the player won screen -->
+        <div id="won_screen" class="hide_won">
+            <div class="won_content">
+                <h1 class="you_won">You Won!</h1>
+                <input type="submit" id="play_again_button" value="PLAY AGAIN">
+            </div>
+        </div>
+
+        <script src="wordle.js"></script>
+    </body>
+</html>

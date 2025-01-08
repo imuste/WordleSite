@@ -1,0 +1,24 @@
+/*****************************************************************************
+* Wordle Website
+* Author: Isabel Muste
+* Project Language: html/javascript/css
+*****************************************************************************/
+
+The purpose of this program is to provide the user with a way to play the
+world game with randomly generated 5-character words. The game works the
+same as any other wordle game such that if a letter is highlighted yello, it
+appears in the word but is currently in the wrong position. If a letter is
+green it is in the word and in the right position. Otherwise, the letter does
+not appear in the correct word.
+
+This project taught me to create an interactive website using html and 
+javascript as well as API's. Besides this, it taught me to use css to enhance
+the user experience when playing the game.
+
+
+/*****************************************************************************
+ RUNNING THE PROGRAM
+*****************************************************************************/
+This program can be ran by opening the wordle.html file in a browser and 
+interacting with the wordle game following the game instructions.
+
